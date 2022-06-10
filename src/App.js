@@ -6,12 +6,16 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import ProductsPage from './pages/ProductsPage';
+import SingleProductPage from './pages/SingleProductPage';
 
 function App() {
   return (
     <div className='App'>
       <MainNav />
       <Switch>
+        <Route path='/products/:productId'>
+          <SingleProductPage />
+        </Route>
         <Route path='/about'>
           <AboutPage />
         </Route>
