@@ -5,6 +5,7 @@ import MainNav from './components/MainNav';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
+import ProductsPage from './pages/ProductsPage';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path='/contact'>
           <ContactPage />
+        </Route>
+        <Route path='/products'>
+          <ProductsPage />
         </Route>
         <Route path='/'>
           <HomePage />
