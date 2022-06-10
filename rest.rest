@@ -1,0 +1,9 @@
+POST http://localhost:5000/cart
+Content-Type: application/json
+
+{
+    "item": "PS5",
+    "price": 799,
+    "itemId": 55,
+    "quantity": 3
+}
