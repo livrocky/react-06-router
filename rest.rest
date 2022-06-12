@@ -2,8 +2,8 @@ POST http://localhost:5000/cart
 Content-Type: application/json
 
 {
-    "item": "PS5",
-    "price": 799,
-    "itemId": 55,
-    "quantity": 3
+    "item": "PS4",
+    "price": 399,
+    "itemId": 56,
+    "quantity": 13
 }
