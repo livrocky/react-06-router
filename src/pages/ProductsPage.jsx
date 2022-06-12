@@ -25,7 +25,7 @@ const ProductsPage = () => {
       price,
       image,
     }));
-    // console.log('onlyDataWeNeed===', onlyDataWeNeed);
+    console.log('onlyDataWeNeed===', onlyDataWeNeed);
     setproductsArr(dataInJs);
   };
 
