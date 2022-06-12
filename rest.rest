@@ -1,9 +1,9 @@
-POST http://localhost:5000/cart
+POST http://localhost:5001/cart
 Content-Type: application/json
 
 {
-    "item": "Bike",
-    "price": 2100,
-    "itemId": 60,
+    "item": "PC",
+    "price": 1500,
+    "itemId": 61,
     "quantity": 15
 }
